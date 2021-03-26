@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import { Control, Form, Errors } from 'react-redux-form';
 
 
+
+
 const required = val => val && val.length;
 const maxLength = len => val => !val || (val.length <= len);
 const minLength = len => val => val && (val.length >= len);
@@ -50,7 +52,7 @@ class Contact extends Component {
                             <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
                             <BreadcrumbItem active>Contact Us</BreadcrumbItem>
                         </Breadcrumb>
-                        <h2>Contact Us</h2>
+                                <h2>Contact Us</h2>
                         <hr />
                     </div>
                 </div>
